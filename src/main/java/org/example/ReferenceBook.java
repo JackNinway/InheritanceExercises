@@ -1,2 +1,8 @@
-package org.example;public class ReferenceBook {
+package org.example;
+
+public class ReferenceBook extends BOOK {
+    public ReferenceBook() {
+        category = Category.NOT_LOANABLE;
+    }
+
 }

@@ -1,2 +1,9 @@
-package org.example;public class Vehicle {
+package org.example;
+
+public abstract class Vehicle {
+    private int Id;
+    private String regNr;
+    private String brand ;
+
+    public abstract void drive();
 }

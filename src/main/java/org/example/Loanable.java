@@ -1,2 +1,5 @@
-package org.example;public interface Loanable {
+package org.example;
+
+public interface Loanable {
+    public void loan();
 }
