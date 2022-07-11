@@ -28,5 +28,7 @@ public class Main {
                 System.out.println("The category is: " +  b.category);
         }
 
+        System.out.println("Dice random: " + Dice.D100.roll(Dice.D100.getValue()));
+
     }
 }
